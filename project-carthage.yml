@@ -119,6 +119,9 @@ targets:
       - carthage: RxCocoa
       - carthage: RxSwift
       - carthage: RxRelay
+      - sdk: libc++.tbd
+      - sdk: libz.tbl
+      - sdk: libcompression.tbd
   RxRealm macOS:
     settings:
       PRODUCT_NAME: RxRealm
